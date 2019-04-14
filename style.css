@@ -1,0 +1,29 @@
+body{background-color: #b9f6ca }
+.container-fluid{
+    background-image: url(img/ssd.jpg);
+    background-position: top;
+    height: 500px;
+}
+.card-action > a > i {font-size: 18px}
+.card-title span{font-size: 40px}
+ #card-head{opacity: 0.7;}
+#tel {font-size: 32px; color: black;}
+h1{margin: 0;}
+nav a i{
+    font-size: 42px!important;
+}
+nav a p{font-size: 12px!important;}
+
+.social{display: flex;}
+
+@media(max-width:550px){
+    .container-fluid{
+        background-image: url(img/@media_nav.jpeg);
+        background-position:right;
+        background-size:cover;
+    }
+    h1                       {font-size: 32px}
+    .card-action > a > i    {font-size: 12px}
+    .card-action > a > b    {font-size: 28px}
+    /* .txt {display: none} */
+}
